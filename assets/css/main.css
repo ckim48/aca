@@ -621,6 +621,9 @@ h6 {
   .section-title {
   font-size: 1.8rem !important;
   }
+  #admission .policy-title{
+    font-size: 1.8rem !important;
+  }
   .fs-5
   {
     font-size: 1rem !important;
@@ -628,6 +631,17 @@ h6 {
   #belonging h3{
     font-size: 1.6rem !important;
   }
+  #admission .discover-text {
+    font-size: 1.0rem !important;
+  }
+  #admission .policy-description{
+    font-size: 0.95rem !important;
+  }
+  .btn-group-lg>.btn, .btn-lg{
+    font-size: 1.05rem !important;
+  }
+
+
   #core-values .card {
     border-radius: 1rem;
     margin-bottom: 1.5rem;
