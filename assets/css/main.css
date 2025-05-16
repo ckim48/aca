@@ -281,7 +281,7 @@ h6 {
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
+    color: white;
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
@@ -432,6 +432,26 @@ h6 {
   border-radius: 4px;
   font-weight: 600;
   color: #1e293b;
+}
+@media (max-width: 768px) {
+  #mission h2 {
+    font-size: 1.8rem;
+  }
+
+  #mission p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  #mission .btn {
+    padding: 8px 20px;
+    font-size: 0.95rem;
+  }
+
+  .highlight-text {
+    padding: 0 4px;
+    font-size: 1rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -595,6 +615,93 @@ h6 {
   font-size: 1.1rem;
   border-radius: 30px;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+  font-size: 1.8rem !important;
+  }
+  .fs-5
+  {
+    font-size: 1rem !important;
+  }
+  #belonging h3{
+    font-size: 1.6rem !important;
+  }
+  #core-values .card {
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #core-values .card-img-wrapper {
+    height: 150px;
+  }
+
+  #core-values h5 {
+    font-size: 1.1rem;
+  }
+
+  #core-values p {
+    font-size: 0.9rem;
+  }
+
+  /* Academics Section */
+  .better-academic-card {
+    padding: 1.2rem;
+    border-radius: 1rem;
+  }
+
+  .icon-wrapper {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .better-academic-card .card-title {
+    font-size: 1.2rem;
+  }
+
+  .better-academic-card .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .better-academic-card .btn {
+    font-size: 0.95rem;
+    padding: 8px 20px;
+  }
+
+  /* CTA Section */
+  #cta h2 {
+    font-size: 1.6rem;
+  }
+
+  #cta .btn-warning {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  .lead{
+    font-size: 1rem !important;
+  }
+
+  .hero h2 {
+  font-size: 47px !important;
+  margin-bottom: 20px !important;
+
+}
+
+.hero-subtitle {
+  font-size: 18px !important;
+}
+.hero-tagline{
+  font-size: 16px !important;
+}
+ .hero .btn-get-started {
+  padding: 10px 32px !important;
+
+  font-size: 14px !important;
+
+}
 }
 
 
